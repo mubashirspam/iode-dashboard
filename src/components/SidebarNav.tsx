@@ -17,6 +17,7 @@ const OWNER: Role[] = ["owner"];
 
 const ITEMS: NavItem[] = [
   { href: "/admin/dashboard", label: "Dashboard", roles: OWNER },
+  { href: "/admin/analytics", label: "Site Analytics", roles: OWNER },
   { href: "/admin/students", label: "Admissions", roles: ALL },
   { href: "/admin/invoices", label: "Invoices", roles: STAFF_PLUS },
   { href: "/admin/content/universities", label: "Universities", roles: STAFF_PLUS, section: "Content" },
